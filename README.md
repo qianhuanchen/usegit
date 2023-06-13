@@ -1,6 +1,9 @@
 # usegit
 使用git管理上传代码
-# 下载git
+# 下载git 初始化
++ 下载目录`https://git-scm.com/`
++ 桌面右键`Git Bash Here`
++ `ssh-keygen -t rsa` 生成秘钥 （生成的文件在用户的.shh文件内复制id——rsa.pub文件到github上）
 + `git config --global user.name {name}`  
 + `git config --global user.email {email}`
 # 上传步骤  
