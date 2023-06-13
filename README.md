@@ -14,3 +14,10 @@
 + `git log` 查看历史记录
 + `git checkout HEAD {name}` 回溯一个文件到最后一次提交的版本  
 + `git clone {url}` 复制项目
+
+  
+2）可能报错2
+``` cmd
+remote: Write access to repository not granted.
+fatal: unable to access ‘https://github.com/shuangyanWang/NAS_network.git/’: The requested URL returned error: 403
+```
