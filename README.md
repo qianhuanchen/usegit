@@ -14,7 +14,6 @@
 + `git init` 管理即将新建的源代码
 + `git add .` 把当前文件夹内所有的文件和非空文件，设置为准备提交 | .可以更改为文件名称指定文件上传
 + `git commit -m "xxx"` xxx=备注 注意写备注,（每次有文件修改需要运行，然后上传）
-+ 
 + `git remote add origin {****.git}` （****.git为所建立的项目的地址)
 + `git push -u origin {main分支名}` 代码上传github默认是main不是master
 + `git log` 查看历史记录
