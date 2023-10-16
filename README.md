@@ -7,15 +7,22 @@
 + `git config --global user.name {name}`  
 + `git config --global user.email {email}`
 # 上传步骤  
-+ 创建一个想要上传的文件，在文件夹内右键鼠标点击`Git Bash Here`
+
++ `git branch` 查看当前分支
++ `git switch {main}` 切换分支
++ ### 创建一个想要上传的文件，在文件夹内右键鼠标点击`Git Bash Here`
 + `git init` 管理即将新建的源代码
 + `git add .` 把当前文件夹内所有的文件和非空文件，设置为准备提交 | .可以更改为文件名称指定文件上传
-+ `git commit -m "xxx"` xxx=备注 注意写备注
++ `git commit -m "xxx"` xxx=备注 注意写备注,（每次有文件修改需要运行，然后上传）
++ 
++ `git remote add origin {****.git}` （****.git为所建立的项目的地址)
++ `git push -u origin {main分支名}` 代码上传github默认是main不是master
 + `git log` 查看历史记录
 + `git checkout HEAD {name}` 回溯一个文件到最后一次提交的版本  
 + `git clone {url}` 复制项目
 
-  
+
+# 遇到错误
 1. 错误：fatal: remote error:The unauthenticated git protocol on port 9418 is no longer supported.  
 
 
