@@ -57,4 +57,11 @@
 ```
  git config --global http.sslVerify "false"
 ```
+### 错误 代码不在主分支上变成了`HEAD`
+1.查看当前分支：`git branch`
+2.新建一个临时 tem 分支，把当前提交的代码放到整个分支:`git branch tem` `git checkout tem`
+3.换回要回到的那个分支，这里是 `master:git checkout master`
+4.然后 merge 刚才创建的临时分支:`git merge tem`
+5.检查是否有冲突，没有就提交到远端:`git push origin/master`
+6.删除临时分支:`git branch -d tem`
 
